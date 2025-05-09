@@ -14,27 +14,27 @@ const Navbar = () => {
                 </li>
                 <li className={styles.li}>
                     <Link href="/" className={styles.a}>
-                        Products
+                        Overview
                     </Link>
                 </li>
                 <li className={styles.li}>
                     <Link href="/" className={styles.a}>
-                        Solutions
-                    </Link>
-                </li>
-                <li className={styles.li}>
-                    <Link href="/" className={styles.a}>
-                        Developers
-                    </Link>
-                </li>
-                <li className={styles.li}>
-                    <Link href="/" className={styles.a}>
-                        Resources
+                        Features
                     </Link>
                 </li>
                 <li className={styles.li}>
                     <Link href="/" className={styles.a}>
                         Pricing
+                    </Link>
+                </li>
+                <li className={styles.li}>
+                    <Link href="/" className={styles.a}>
+                    Terms & Conditions
+                    </Link>
+                </li>
+                <li className={styles.li}>
+                    <Link href="/" className={styles.a}>
+                        Privacy Policy
                     </Link>
                 </li>
             </ul>
