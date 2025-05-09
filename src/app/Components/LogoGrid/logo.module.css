@@ -1,12 +1,12 @@
   .gridcontainer {
-    display: grid;
+    /* display: grid; */
     padding: 3vw 15vw;
     /* grid-template-columns: repeat(4, 1fr); */
     gap: 16px;
     justify-content: center;
     align-items: center;
-    row-gap: 60px;
-    grid: auto / repeat(4, 1fr);
+    /* row-gap: 60px; */
+    /* grid: auto / repeat(4, 1fr); */
     padding-top: 7rem;
   }
 
