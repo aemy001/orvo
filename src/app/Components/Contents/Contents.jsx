@@ -7,11 +7,17 @@ import Button from "../Button/Button";
 const Contents = () => {
     return (
         <div className={styles.contents}>
+                   <div className={styles.title}>
+            <div className={styles.titleBlend}>
+                <h1>Beyond   </h1>
+                <h1> Contacts.</h1>
+                <h1> Smarter</h1>
+                <h1>Relationships.</h1>
+            </div>
+        </div>
             <div className={styles.description}>
                 <p className={styles.p}>
-                    Millions of companies of all sizes use Stripe online and in
-                    person to accept payments, send payouts, automate financial
-                    processes, and ultimately grow revenue.
+                Supercharge your network with Kanban-driven lead tracking, AI-powered insights, and tools to connect, engage, and grow — all in one intuitive workspace.
                 </p>
                 <div className={styles.buttons}>
                     <Button
@@ -28,6 +34,8 @@ const Contents = () => {
                 alt="hero image"
                 className={styles.heroImage}
                 src={HeroImage}
+                // width={800}
+                // height={300}
             />
         </div>
     );

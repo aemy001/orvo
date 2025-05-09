@@ -4,16 +4,43 @@
     grid-template-columns: 50% 50%;
     grid-template-rows: 1fr;
     align-items: flex-end;
-    position: relative;
-    z-index: 9999;
+    /* position: relative;
+    z-index: 9999; */
+}
+.title {
+    position: absolute;
+    z-index: 2;
+    top: 10rem;
+    left: 15vw;
+    width: calc(100vw - 15vw);
+    mix-blend-mode: color-burn;
 }
 
+.titleBlend {
+    position: absolute;
+    z-index: 0;
+}
+
+@media screen and (max-width: 1199px) {
+    .title {
+        left: 5vw;
+        width: calc(100vw - 5vw);
+    }
+}
+
+.heroImage {
+    opacity: 0.8;
+    /* filter: blur(1px); */
+    max-width: 100%;
+    height: auto;
+}
 .description {
-    padding: 0 0 10rem 0;
+    padding: 28rem 0 0 0;
+    /* padding: 0 0 10rem 0; */
 }
 
 .p {
-    padding: 0 0 3.12rem 0;
+    /* padding: 0 0 3.12rem 0; */
     width: 30rem;
 }
 
