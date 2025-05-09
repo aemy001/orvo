@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <title>Orvo</title>
-        <meta name="description" content='Orvo" />
+        <meta name="description" content="Orvo" />
       </head>
       <body>
         {children}
