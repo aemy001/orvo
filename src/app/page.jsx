@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Contents from "./Components/Contents/Contents";
 import LogoGrid from "./Components/LogoGrid/LogoGrid";
 import GlobalSection from "./Components/GlobalSection/GlobalSection";
+import ModularSection from "./Components/ModularSection/ModularSection";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
@@ -16,6 +17,7 @@ export default function Home() {
             <Contents />
             <LogoGrid/>
             {/* <GlobalSection/> */}
+            <ModularSection/>
         </main>
     );
 }

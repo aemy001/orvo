@@ -3,9 +3,9 @@
 :root {
     --max-width: 1100px;
     --border-radius: 12px;
-    --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    /* --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
         "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
-        "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+        "Fira Mono", "Droid Sans Mono", "Courier New", monospace; */
 
     --foreground-rgb: 0, 0, 0;
     --background-start-rgb: 214, 219, 220;
@@ -116,6 +116,14 @@ a {
     }
 }
 
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700 !important;
+}
+h4{
+        color: #2e3a55;
+        font-size: 16px;
+}
+ 
 h1 {
     color: #3a3a3a;
     font-size: clamp(54px, 7vw, 94px);
@@ -124,7 +132,21 @@ h1 {
     line-height: clamp(4rem, 5vw, 5.6rem);
     letter-spacing: -0.235rem;
 }
-
+h2{
+       color: #3a3a3a;
+    font-size: clamp(54px, 7vw, 60px);
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: clamp(4rem, 5vw, 5.6rem); */
+    /* letter-spacing: -0.235rem; */
+}
+h3{
+    font-size: 38px;
+    line-height: 1.55;
+    font-weight: 700;
+    color: #0a2540;
+    letter-spacing: -0.2px;
+}
 p {
     color: var(--Stripe---Body, #425466);
     font-size: 1.125rem;
@@ -132,4 +154,42 @@ p {
     font-weight: 400;
     line-height: 1.75rem; /* 155.556% */
     letter-spacing: 0.0125rem;
+}
+.modular-section{
+    background-color: #f6f9fc !important;
+    /* display: flex;
+    justify-content: center; */
+}
+.modular-section ul{
+    padding-top: 44px;
+}
+.modular-section ul div{
+    font-size: 15px;
+    font-weight: 500;
+   margin: 4px 0;
+   color: #425466;
+}
+.modular-section ul div a{
+  color: #635bff ;  
+  cursor: pointer;
+
+}
+.modular-section .modular-content{
+    padding: 0 0 0 7.2vw;
+}
+.modular-section h5{
+    color: #635bff;
+    font-weight: 700;
+      font-size: 18px;
+    line-height: 1.55;
+}
+.modular-section .container.two{
+    padding-top: 220px;
+}
+.modular-section h2{
+    font-size: 58px;
+    color: #0a2540;
+    letter-spacing: -0.02em;
+    margin-top: 24px;
+    margin-bottom: 32px;
 }

@@ -16,7 +16,8 @@ const LogoGrid = () => {
   };
   return (
     <>
-          <Slider {...settings} className={styles.gridcontainer}>
+       <section className="p-3">
+           <Slider {...settings} className={styles.gridcontainer}>
         
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -71,9 +72,13 @@ const LogoGrid = () => {
         </svg>
         <Image  className={styles.logosvg}   width={200} height={60} src="/images/microsoft.png"/>
         {/* <svg width="300"   className={styles.logosvg}
-          height="60" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><title>file_type_outlook</title><path d="M19.484,7.937v5.477L21.4,14.619a.489.489,0,0,0,.21,0l8.238-5.554a1.174,1.174,0,0,0-.959-1.128Z" style={{fill:'#0072c6'}}></path><path d="M19.484,15.457l1.747,1.2a.522.522,0,0,0,.543,0c-.3.181,8.073-5.378,8.073-5.378V21.345a1.408,1.408,0,0,1-1.49,1.555H19.483V15.457Z" style={{fill:'#0072c6'}}></path><path d="M10.44,12.932a1.609,1.609,0,0,0-1.42.838,4.131,4.131,0,0,0-.526,2.218A4.05,4.05,0,0,0,9.02,18.2a1.6,1.6,0,0,0,2.771.022,4.014,4.014,0,0,0,.515-2.2,4.369,4.369,0,0,0-.5-2.281A1.536,1.536,0,0,0,10.44,12.932Z" style={{fill:'#0072c6'}}></path><path d="M2.153,5.155V26.582L18.453,30V2ZM13.061,19.491a3.231,3.231,0,0,1-2.7,1.361,3.19,3.19,0,0,1-2.64-1.318A5.459,5.459,0,0,1,6.706,16.1a5.868,5.868,0,0,1,1.036-3.616A3.267,3.267,0,0,1,10.486,11.1a3.116,3.116,0,0,1,2.61,1.321,5.639,5.639,0,0,1,1,3.484A5.763,5.763,0,0,1,13.061,19.491Z" style={{fill:'#0072c6'}}></path></g></svg> */}
+          height="60" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+           stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><title>file_type_outlook</title>
+           <path d="M19.484,7.937v5.477L21.4,14.619a.489.489,0,0,0,.21,0l8.238-5.554a1.174,1.174,0,0,0-.959-1.128Z" 
+           style={{fill:'#0072c6'}}></path><path
+            d="M19.484,15.457l1.747,1.2a.522.522,0,0,0,.543,0c-.3.181,8.073-5.378,8.073-5.378V21.345a1.408,1.408,0,0,1-1.49,1.555H19.483V15.457Z" style={{fill:'#0072c6'}}></path><path d="M10.44,12.932a1.609,1.609,0,0,0-1.42.838,4.131,4.131,0,0,0-.526,2.218A4.05,4.05,0,0,0,9.02,18.2a1.6,1.6,0,0,0,2.771.022,4.014,4.014,0,0,0,.515-2.2,4.369,4.369,0,0,0-.5-2.281A1.536,1.536,0,0,0,10.44,12.932Z" style={{fill:'#0072c6'}}></path><path d="M2.153,5.155V26.582L18.453,30V2ZM13.061,19.491a3.231,3.231,0,0,1-2.7,1.361,3.19,3.19,0,0,1-2.64-1.318A5.459,5.459,0,0,1,6.706,16.1a5.868,5.868,0,0,1,1.036-3.616A3.267,3.267,0,0,1,10.486,11.1a3.116,3.116,0,0,1,2.61,1.321,5.639,5.639,0,0,1,1,3.484A5.763,5.763,0,0,1,13.061,19.491Z" style={{fill:'#0072c6'}}></path></g></svg> */}
              <Image  className={styles.logosvg}   width={300} height={60} src="/images/stripe-logo.svg"/>
-
              <svg
     version="1.1"
     xmlns="http://www.w3.org/2000/svg"
@@ -179,15 +184,12 @@ const LogoGrid = () => {
 	c-1.6-2.742-0.141-4.379,1.092-5.871c1.406-1.703,2.703-2.926,4.074-4.525c1.371-1.602,2.137-2.455,3.051-4.287
 	c0.914-1.828,0.299-3.715-0.387-5.088C97.531,84.572,92.042,71.084,89.764,65.592z"
     />
-  </svg>
-
-
-
-
+            </svg>
 <Image   className={styles.logosvg} width={400} height={100} src="/images/facebooklogo.svg"/>
 
   
       </Slider>
+       </section>
     </>
   );
 };
