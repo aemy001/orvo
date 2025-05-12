@@ -27,7 +27,7 @@ const ModularSection = () => {
                 <h3>Effortless Task Management, All in One Place</h3>
                 <p>TaskFlow helps you organize, prioritize, and track tasks in real-time—keeping your goals clear and your team aligned — all in one place.</p>
                  <Button
-                        text="Start managing task"
+                        text="Get Started"
                         type="blackButtonWithBackground"
                     ></Button>
                     <ul className='px-0'>
@@ -56,7 +56,7 @@ const ModularSection = () => {
                 <h3>Effortless Personalization for Every Note</h3>
                 <p>Easily capture meetings, moments, and milestones with personalized notes. Keep them organized and accessible whenever you need them.</p>
                  <Button
-                        text="Create New Note"
+                        text="Get Started"
                         type="blackButtonWithBackground"
                     ></Button>
                     <ul className='px-0'>
@@ -85,7 +85,7 @@ const ModularSection = () => {
                 <h3>Streamlined Contact Management</h3>
                 <p>Stay organized and connected with simple, powerful tools designed for ease. Manage all your contacts, track interactions, and never miss a follow-up.</p>
                  <Button
-                        text="Manage Contacts"
+text="Get Started"
                         type="blackButtonWithBackground"
                     ></Button>
                     <ul className='px-0'>
@@ -111,7 +111,7 @@ const ModularSection = () => {
                 <h3>Smart Activity Tracking</h3>
                 <p>Monitor every interaction and stay updated on key activities in real time.</p>
                  <Button
-                        text="Track Now"
+                        text="Get Started"
                         type="blackButtonWithBackground"
                     ></Button>
                     <ul className='px-0'>
