@@ -16,8 +16,8 @@ export default function Home() {
             <Navbar />
             <Contents />
             <LogoGrid/>
-            {/* <GlobalSection/> */}
             <ModularSection/>
+             <GlobalSection/>
         </main>
     );
 }

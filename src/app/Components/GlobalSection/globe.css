@@ -1,0 +1,109 @@
+.global {
+  margin-top: 60px;
+  position: relative;
+     z-index: 9999;
+  transform-origin: 100% 0;
+  transform: skewY(-6deg);
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #0a2540;
+  translate: 0 -19%;
+ 
+}
+.global .short {
+    width: 15rem;
+    height: 3rem;
+    position: absolute;
+    right: 8rem;
+    top: -1rem;
+    mix-blend-mode: multiply;
+    background-color: #00d4ff;
+    opacity: 0.9;
+}
+.global .tall {
+    width: 30%;
+    height: 3rem;
+    position: absolute;
+    left: 0;
+    top: -2rem;
+    background-color: #635bff;
+}
+.global-content {
+  /* padding-inline: 2rem; */
+  padding-block: 6rem;
+  padding-left: 14.7vw;
+  /* margin-block: 5rem; */
+  /* max-width: 1080px; */
+  /* margin-inline: auto; */
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  transform: skewY(6deg);
+}
+.global-head {
+  display: block;
+  margin-block: 1rem;
+  margin-top: 2rem;
+  color: #00d4ff;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  line-height: 28px;
+}
+.global-title {
+  margin-bottom: 1rem;
+}
+.global-title h2 {
+  color: #fff;
+  font-size: clamp(34px, 10vw, 38px);
+  font-weight: 700;
+  letter-spacing: clamp(-0.1px, 10vw, -0.2px);
+  line-height: clamp(44px, 10vw, 48px);
+}
+.global-desc {
+ color: white;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    line-height: 28px;
+    max-width: 60ch;
+    
+}
+.global-details {
+  /* margin-inline: auto; */
+  /* margin-block: 10rem; */
+  padding:  0 8.7vw 10vw 14.4vw;
+  display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 1rem;
+justify-items: center;
+
+   transform: skewY(6deg);
+
+}
+.global-details .box {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  /* gap: 1rem; */
+}
+.global-details .head {
+  color: #fff;
+  padding: 0px 0px 0px 16px;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  border-left: 2px solid #00d4ff;
+  /* line-height: 24px; */
+}
+.global-details .desc {
+  color: #fff;
+  padding: 0 40px 0 16px;
+  /* padding: 0px 32px 0px 16px; */
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+/*# sourceMappingURL=global.css.map */

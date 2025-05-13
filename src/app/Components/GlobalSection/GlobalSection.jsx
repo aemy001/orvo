@@ -1,30 +1,77 @@
-"use client";
 import React from "react";
-import styles from "./global.module.css";
+// import {GlobeDemo} from './myglobedemo'
+import "./globe.css";
 
-const GlobalSection = () => {
+function Global() {
   return (
-    <>
-      <div className="container row">
-        <div className="col-md-6">
-          <div className={styles.global}>
-            <h2>Global Scale</h2>
-            <h1>The backbone for global commerce</h1>
-            <div>
-              Stripe makes moving money as easy and programmable as moving data.
-              Our teams are based in offices around the world and we process
-              hundreds of billions of dollars each year for ambitious businesses
-              of all sizes.
+    <section className="global ">
+      <div className="global-lines">
+        <div className="tall">
+          <div className="short"></div>
+        </div>
+      </div>
+
+      <div className="row d-block">
+        <div className="col-md-5">
+          <div className="global-content">
+            <span className="global-head">Global Reach</span>
+
+            <div className="global-title">
+              <h2>The backbone for modern relationship management</h2>
             </div>
+
+            <p className="global-desc">
+              Sorin empowers businesses to build, manage, and grow lasting
+              customer relationships at scale. Our intelligent platform
+              centralizes interactions, automates communication, and delivers
+              real-time insights—helping teams across the globe stay connected,
+              productive, and aligned with every client touchpoint.
+            </p>
           </div>
         </div>
-      </div>
-      <div className={styles.globalgridcontainer}>
-        <div>            
+        <div className="col-md-7">
+          <div className="container">{/* <GlobeDemo/> */}</div>
         </div>
       </div>
-    </>
-  );
-};
+      <div className="global-details col-md-12">
+        <div className="box">
+          <h4 className="head">1.1M+</h4>
+          <p className="desc">Smart Tasks Automated</p>
+          <p className="desc">
+            Over one million tasks assigned, prioritized, and completed each
+            month through AI workflows.
+          </p>
+        </div>
 
-export default GlobalSection;
+        <div className="box">
+          <h4 className="head">95%</h4>
+          <p className="desc">ORVO AI Email Precision</p>
+          <p className="desc">
+            Emails generated with 95% accuracy, helping teams communicate
+            clearly and efficiently.
+          </p>
+        </div>
+
+        <div className="box">
+          <h4 className="head">37+</h4>
+          <p className="desc">Countries Engaged</p>
+          <p className="desc">
+            Sorin is trusted by professionals in 70+ countries to streamline
+            client interactions daily.
+          </p>
+        </div>
+
+        <div className="box">
+          <h4 className="head">4.3X Faster</h4>
+          <p className="desc">Lead Conversion Speed</p>
+          <p className="desc">
+            Respond to leads three times faster using real-time Kanban boards
+            and instant alerts.
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default Global;
