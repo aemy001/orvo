@@ -1,0 +1,33 @@
+.sectionBg {
+  background-color: #f6f9fc;
+   /* padding: 0 0 0 7.2vw; */
+   padding: 0 5vw 0 16vw;
+}
+
+.primaryBtn {
+  background-color: #635bff;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 20px;
+  padding: 6px 16px;
+  text-decoration: none;
+}
+
+.primaryBtn:hover {
+  background-color: #5346e8;
+  color: #fff;
+}
+
+.withDivider {
+  border-left: 1px dashed #d3dce6;
+  padding-left: 1.5rem;
+}
+
+@media (max-width: 767px) {
+  .withDivider {
+    border-left: none;
+    border-top: 1px dashed #d3dce6;
+    padding-left: 0;
+    padding-top: 1.5rem;
+  }
+}

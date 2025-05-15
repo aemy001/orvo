@@ -1,0 +1,20 @@
+.slick-slide {
+  padding: 8px !important; 
+}
+
+.slick-track {
+  margin-left: -8px !important;
+  margin-right: -8px !important;
+}
+.slick-slide .slick-active{
+width: 24rem !important;
+}
+.slick-slider {
+  cursor: grab !important;
+}
+.slick-slider:active {
+  cursor: grabbing !important;
+}
+.reviewslider{
+background-color: #f6f9fc;
+}

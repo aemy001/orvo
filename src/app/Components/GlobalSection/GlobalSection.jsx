@@ -10,7 +10,6 @@ function Global() {
           <div className="short"></div>
         </div>
       </div>
-
       <div className="row d-block">
         <div className="col-md-5">
           <div className="global-content">
@@ -70,6 +69,11 @@ function Global() {
           </p>
         </div>
       </div>
+       <div className="terminal-lines">
+                <div className="tall1">
+                    <div className="short1"></div>
+                </div>
+            </div>
     </section>
   );
 }

@@ -1,0 +1,65 @@
+/* components/ReviewCard.module.css */
+.cardResponsive {
+  width: 100%;
+  max-width: 24rem;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.gradient{
+  padding: 3rem;
+  margin: 1.5rem 1.5rem 0 1.5rem;
+     background: linear-gradient(to top right, #e5e7eb, #9ca3af);
+     transition: background 0.4s ease-in-out;
+     
+}
+.cardResponsive:hover .gradient{
+   background: linear-gradient(
+    to top left,
+    rgba(131, 91, 6, 0.5),
+    rgba(50, 60, 120, 0.5) 
+  );
+  /* margin-bottom: 1rem; */
+  /* filter: blur(1px); */
+}
+.name p{
+  line-height: 1.3rem !important;
+}
+.name {
+  padding: 1rem;
+  margin: 1.5rem;
+  transition: margin 0.4s ease-in-out, padding 0.4s ease-in-out;
+}
+
+.cardResponsive:hover .name {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.cardResponsive .p{
+    line-height: 1.3rem !important;
+    padding: 8px 12px;
+}
+.cardResponsive .p-bg{
+background-color: #F8FAFC;
+border-radius: 8px;
+opacity: 0.9;
+}
+.cardResponsive:hover .card23{
+  padding-bottom: 0.7rem;
+  padding-top: 0.7rem;
+  /* margin-bottom: 0.5rem; */
+}
+.card23{
+  padding: 1.5rem;
+    margin-bottom: -48px;
+    margin-right: -48px;
+      transition:  padding 0.4s ease-in-out;
+}
+
+@media (max-width: 576px) {
+  .cardResponsive {
+    padding: 0.5rem;
+    border-radius: 1rem;
+  }
+}

@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/Components/HeroBackground/Background.jsx", "src/app/Components/Button/Button.jsx", "src/app/Components/Contents/Contents.jsx", "src/app/layout.jsx", "src/app/page.jsx", "src/app/Components/Navbar/Navbar.jsx", "src/app/Components/TitleBlend/TitleBlend.jsx", "src/app/Components/UI/globe.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/Components/HeroBackground/Background.jsx", "src/app/Components/Button/Button.jsx", "src/app/Components/Contents/Contents.jsx", "src/app/layout.jsx", "src/app/page.jsx", "src/app/Components/Navbar/Navbar.jsx", "src/app/Components/TitleBlend/TitleBlend.jsx", "src/app/Components/UI/globe.jsx", "src/app/Components/Globe/Globe.jsx"],
   "exclude": ["node_modules"]
 }
