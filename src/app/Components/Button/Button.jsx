@@ -27,7 +27,12 @@ const Button = ({ text, type }) => {
     return (
         <button className={buttonStyle}>
             {text}
-            <Image alt="arrow" className={styles.arrow} src={Arrow} />
+            <svg   className={styles.arrow} width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+           <path 
+  d="M0.699951 0.5L4.69995 4.5L0.699951 8.5" 
+  stroke={type === "blackButtonNoBackground" ? "black" : "white"} 
+/>
+</svg>
         </button>
     );
 };

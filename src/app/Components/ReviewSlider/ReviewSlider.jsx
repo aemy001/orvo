@@ -60,7 +60,7 @@ export default function ReviewSlider() {
   };
 
   return (
-    <section className="reviewslider py-5">
+    <section className="reviewslider">
   <div className="container ">
       <h3 className="text-center mb-4">Hear From Those Who Trust Us</h3>
       <p className='text-center'>Real stories and feedback from people who rely on our solutions.</p>

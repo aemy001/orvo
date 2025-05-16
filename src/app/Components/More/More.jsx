@@ -5,7 +5,7 @@ import Button from "../Button/Button";
 
 export default function GetStartedSection() {
   return (
-    <section className={` py-5 ${styles.sectionBg}`}>
+    <section className={` ${styles.sectionBg}`}>
         <div className="container">
  <div className="row text-center text-md-start align-items-start gx-5">
         {/* Column 1: Get Started */}

@@ -1,21 +1,22 @@
 .footer {
   position: relative;
-  background-color: #f6f9fc;
+  background-color: #ffffff;
   padding: 1px;
+  transform: skewY(-6deg);
 }
 
 .footer .tall-right {
   width: 30%;
-  height: 4rem;
+  height: 3rem;
   position: absolute;
   right: 0;
-  top: -4rem;
+  top: -3rem;
   background-color: #00d4ff;
 }
 
 .footer .tall-right .short-right {
-  width: 15rem;
-  height: 4rem;
+  width: 12rem;
+  height: 3rem;
   position: absolute;
   left: 15rem;
   bottom: -3rem;
@@ -26,7 +27,7 @@
 
 .footer .tall-left {
   width: 30%;
-  height: 4rem;
+  height: 3rem;
   position: absolute;
   left: 0;
   top: 0;
@@ -34,18 +35,18 @@
 }
 
 .footer .tall-left .short-left {
-  width: 15rem;
-  height: 4rem;
-  position: absolute;
-  right: 8rem;
-  top: -3rem;
-  mix-blend-mode: multiply;
-  background-color: #00d4ff;
-  opacity: 0.9;
+width: 12rem;
+    height: 2rem;
+    position: absolute;
+    right: 8rem;
+    top: -2rem;
+    mix-blend-mode: multiply;
+    background-color: #00d4ff;
+    opacity: 0.9;
 }
 
 .footer-content {
-  transform: skewY(7deg);
+  transform: skewY(6deg);
   max-width: 1080px;
   margin-inline: auto;
   padding-block: 10rem;
@@ -145,10 +146,10 @@
 }
 
 /* Empty sections for future content, you can remove or fill as needed */
-.footer-content__products,
+/* .footer-content__products,
 .footer-content__solutions,
 .footer-content__customSolutions,
 .footer-content__developers,
 .footer-content__resources,
 .footer-content__company {
-}
+} */

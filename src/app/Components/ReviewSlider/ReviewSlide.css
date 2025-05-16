@@ -17,4 +17,9 @@ width: 24rem !important;
 }
 .reviewslider{
 background-color: #f6f9fc;
+background-image: url('../../../../public/images/Pattern.png');
+background-repeat: no-repeat;
+/* background-position: center center; */
+padding-top: 10rem;
+padding-bottom: 10rem;
 }

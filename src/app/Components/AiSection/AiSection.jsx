@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 // import {GlobeDemo} from './myglobedemo'
 import "./ai.css";
 
@@ -30,34 +31,36 @@ function AISection() {
       </div>
       <div className="ai-details col-md-12">
         <div className="box">
+          <Image width={32} height={32} src="/images/ai/VoiceAssistant.svg" className="img"/>
           <h4 className="head">Automate Emails with ORVO AI</h4>
           {/* <p className="desc">.Automate Emails with ORVO AI</p> */}
           <p className="desc">
-    Streamline task assignment, tracking, and follow-ups—no manual work.
-          </p>
+Generate smart, context-aware emails in seconds using AI.          </p>
         </div>
 
         <div className="box">
-          <h4 className="head">Extend Sorin with Custom Apps</h4>
+                    <Image width={32} height={32} src="/images/ai/Mail.svg" className="img"/>
+          <h4 className="head">Transcribe Voicemails Instantly</h4>
           {/* <p className="desc">ORVO AI Email Precision</p> */}
           <p className="desc">
-           Add powerful plugins and tools tailored to your workflows.
+       ORVO AI converts voice interactions into clear, searchable transcripts.
           </p>
         </div>
 
         <div className="box">
+           <Image width={32} height={32} src="/images/ai/Leads.svg" className="img"/>
           <h4 className="head">Automate Lead Flows with Smart Tasks</h4>
           {/* <p className="desc">Countries Engaged</p> */}
           <p className="desc">
-         Streamline task assignment, tracking, and follow-ups—no manual work.
+       Streamline task assignment, tracking, and follow-ups—no manual work.
           </p>
         </div>
 
         <div className="box">
+            <Image width={32} height={32} src="/images/ai/Extension.svg" className="img"/>
           <h4 className="head">Extend Sorin with Custom Apps</h4>
           {/* <p className="desc">Lead Conversion Speed</p> */}
-          <p className="desc">
- Add powerful plugins and tools tailored to your workflows.
+          <p className="desc">Add powerful plugins and tools tailored to your workflows.
           </p>
         </div>
       </div>
