@@ -5,13 +5,13 @@
 }
 
 .blackButtonWithBackground {
-    padding: 0.5rem 0.75rem;
+   padding: 0.5rem 1rem;
     font-size: 0.875rem;
     font-weight: 600;
     font-style: normal;
     line-break: 1.5rem;
     background-color: transparent;
-    border-radius: 10rem;
+    border-radius: 12px;
     border: transparent;
     cursor: pointer;
     color: #fff;
@@ -24,13 +24,13 @@
 }
 
 .blackButtonNoBackground {
-    padding: 0.5rem 0.75rem;
+   padding: 0.5rem 1rem;
     font-size: 0.875rem;
     font-weight: 600;
     font-style: normal;
     line-break: 1.5rem;
     background-color: transparent;
-    border-radius: 10rem;
+    border-radius: 12px;
     border: transparent;
     cursor: pointer;
     color: black;
@@ -43,13 +43,13 @@
 }
 
 .whiteButtonWithBackground {
-    padding: 0.5rem 0.75rem;
+   padding: 0.5rem 1rem;
     font-size: 0.875rem;
     font-weight: 600;
     font-style: normal;
     line-break: 1.5rem;
     background-color: transparent;
-    border-radius: 10rem;
+    border-radius: 12px;
     border: transparent;
     cursor: pointer;
     color: #fff;
@@ -62,13 +62,13 @@
 }
 
 .whiteButtonNoBackground {
-    padding: 0.5rem 0.75rem;
+   padding: 0.5rem 1rem;
     font-size: 0.875rem;
     font-weight: 600;
     font-style: normal;
     line-break: 1.5rem;
     background-color: transparent;
-    border-radius: 10rem;
+    border-radius: 12px;
     border: transparent;
     cursor: pointer;
     color: #fff;

@@ -14,8 +14,12 @@ import Faqs from "./Components/Faqs/Faqs";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
-
+    const faqsData = [
+  { title: "How long until we deliver your first blog post?", content: "Really boy law county she unable her sister. Feet you off its like like six. Among genders are leave law built now. In built table in an rapid blush. Merits behind on afraid or warmly." },
+  { title: "How long until we deliver your first blog post?", content: "Really boy law county she unable her sister. Feet you off its like like six. Among genders are leave law built now. In built table in an rapid blush. Merits behind on afraid or warmly." },  { title: "How long until we deliver your first blog post?", content: "Really boy law county she unable her sister. Feet you off its like like six. Among genders are leave law built now. In built table in an rapid blush. Merits behind on afraid or warmly." },  { title: "How long until we deliver your first blog post?", content: "Really boy law county she unable her sister. Feet you off its like like six. Among genders are leave law built now. In built table in an rapid blush. Merits behind on afraid or warmly." },  { title: "How long until we deliver your first blog post?", content: "Really boy law county she unable her sister. Feet you off its like like six. Among genders are leave law built now. In built table in an rapid blush. Merits behind on afraid or warmly." },  { title: "How long until we deliver your first blog post?", content: "Really boy law county she unable her sister. Feet you off its like like six. Among genders are leave law built now. In built table in an rapid blush. Merits behind on afraid or warmly." },  { title: "How long until we deliver your first blog post?", content: "Really boy law county she unable her sister. Feet you off its like like six. Among genders are leave law built now. In built table in an rapid blush. Merits behind on afraid or warmly." },
+];
 export default function Home() {
+
     return (
         <main className={styles.main}>
             <Background />
@@ -27,7 +31,7 @@ export default function Home() {
              <ReviewSlider/>
              <AiSection/>
              <More/>
-            <Faqs/>
+            <Faqs data={faqsData} />
              {/* <Footer/> */}
              {/* <Globe/> */}
         </main>
