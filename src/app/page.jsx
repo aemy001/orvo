@@ -10,6 +10,7 @@ import AiSection from "./Components/AiSection/AiSection";
 import ReviewSlider from "./Components/ReviewSlider/ReviewSlider";
 import ModularSection from "./Components/ModularSection/ModularSection";
 import More from "./Components/More/More";
+import Faqs from "./Components/Faqs/Faqs";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
@@ -26,6 +27,7 @@ export default function Home() {
              <ReviewSlider/>
              <AiSection/>
              <More/>
+            <Faqs/>
              {/* <Footer/> */}
              {/* <Globe/> */}
         </main>

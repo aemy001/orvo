@@ -28,6 +28,8 @@ function AISection() {
         <div className="col-md-7">
           <div className="container"></div>
         </div>
+
+        
       </div>
       <div className="ai-details col-md-12">
         <div className="box">

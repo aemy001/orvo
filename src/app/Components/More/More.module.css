@@ -1,7 +1,11 @@
 .sectionBg {
-  background-color: #f6f9fc;
+  /* background-color: #f6f9fc; */
    /* padding: 0 0 0 7.2vw; */
+   background-image: url('/images/SectionBackground.png');
    padding: 10rem 5vw 10rem 16vw;
+    background-repeat: no-repeat;
+   /* background-position: center center; */
+   background-size: cover;
 }
 
 .primaryBtn {
