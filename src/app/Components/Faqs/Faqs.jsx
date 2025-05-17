@@ -4,8 +4,8 @@ import Image from "next/image";
 import './faqs.css'
 
 const FAQS = ({ data }) => {
-  const [openIndex, setOpenIndex] = useState(null);
-
+  // const [openIndex, setOpenIndex] = useState(null);
+const [openIndex, setOpenIndex] = useState(0); 
   const toggle = (index) => {
     setOpenIndex(openIndex === index ? null : index);
   };

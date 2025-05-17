@@ -1,0 +1,39 @@
+.pricing {
+  background-image: url("/images/PricingBg.png");
+ background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;
+    padding: 10rem;
+        margin-top: -156px;
+}
+.pricing .card{
+    box-shadow: 0px 26px 40px 0px rgba(188, 202, 255, 0.13) !important;
+    border: 1px solid #E7EBFF !important;
+    border-radius: 26px !important;
+}
+.pricing button{
+    border: 1px solid #014360 !important;
+    border-radius: 12px !important;
+}
+.pricing h3{
+    font-size: 34px !important;
+}
+.pricing h3 span{
+  color: #90A1B9;  
+}
+.pricing h2{
+    font-size: 48px !important;
+}
+.pricing .card:hover {
+  background-image: url("/images/Pricing.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pricing .card:hover button {
+  background: #014360;
+  color: white;
+}
+.pricing .card button {
+  transition: background 0.3s ease, color 0.3s ease;
+}

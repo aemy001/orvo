@@ -8,26 +8,25 @@
   height: -moz-fit-content;
   height: fit-content;
   background-color: #0a2540;
-  translate: 0 -15%;
- 
+  translate: 0 -20%;
 }
 .global .short {
-    width: 15rem;
-    height: 3rem;
-    position: absolute;
-    right: 8rem;
-    top: -1rem;
-    mix-blend-mode: multiply;
-    background-color: #00d4ff;
-    opacity: 0.9;
+  width: 15rem;
+  height: 3rem;
+  position: absolute;
+  right: 8rem;
+  top: -1rem;
+  mix-blend-mode: multiply;
+  background-color: #00d4ff;
+  opacity: 0.9;
 }
 .global .tall {
-    width: 30%;
-    height: 3rem;
-    position: absolute;
-    left: 0;
-    top: -2rem;
-    background-color: #635bff;
+  width: 30%;
+  height: 3rem;
+  position: absolute;
+  left: 0;
+  top: -2rem;
+  background-color: #635bff;
 }
 .global-content {
   /* padding-inline: 2rem; */
@@ -62,25 +61,23 @@
   line-height: clamp(44px, 10vw, 48px);
 }
 .global-desc {
- color: white;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0.2px;
-    line-height: 28px;
-    max-width: 60ch;
-    
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  line-height: 28px;
+  max-width: 60ch;
 }
 .global-details {
   /* margin-inline: auto; */
   /* margin-block: 10rem; */
-padding: 0 8.7vw 7vw 14.4vw;
+  padding: 0 8.7vw 7vw 14.4vw;
   display: grid;
-grid-template-columns: repeat(4, 1fr);
-gap: 1rem;
-justify-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  justify-items: center;
 
-   transform: skewY(6deg);
-
+  transform: skewY(6deg);
 }
 @media (max-width: 1024px) {
   .global-details {
@@ -124,22 +121,21 @@ justify-items: center;
 }
 
 .global .short1 {
-    width: 15rem;
-    height: 3rem;
-    position: absolute;
-    right: 0;
-    bottom: -1rem;
-    background-color: #00d4ff ;
-    mix-blend-mode: multiply;
-    opacity: 0.9;
+  width: 15rem;
+  height: 3rem;
+  position: absolute;
+  right: 0;
+  bottom: -1rem;
+  background-color: #00d4ff;
+  mix-blend-mode: multiply;
+  opacity: 0.9;
 }
 
 .global .tall1 {
-    width: 30%;
-    height: 3rem;
-    position: absolute;
-    right: 0;
-    bottom: -3rem;
-    background-color: #635bff;
+  width: 30%;
+  height: 3rem;
+  position: absolute;
+  right: 0;
+  bottom: -3rem;
+  background-color: #635bff;
 }
- 
