@@ -5,7 +5,7 @@ import Contents from "./Components/Contents/Contents";
 import LogoGrid from "./Components/LogoGrid/LogoGrid";
 import GlobalSection from "./Components/GlobalSection/GlobalSection";
 // import Globe from "./Components/Globe/Globe";
-// import Footer from "./Components/Footer/Footer";
+import Footer from "./Components/Footer/Footer";
 import AiSection from "./Components/AiSection/AiSection";
 import Pricing from "./Components/Pricing/Pricing";
 import ReviewSlider from "./Components/ReviewSlider/ReviewSlider";
@@ -38,9 +38,10 @@ export default function Home() {
              <Pricing/>
              <ReviewSlider/>
              <AiSection/>
-             <More/>
+           
             <Faqs data={faqsData} />
-             {/* <Footer/> */}
+              <More/>
+             <Footer/>
              {/* <Globe/> */}
         </main>
     );
