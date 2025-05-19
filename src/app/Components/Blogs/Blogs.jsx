@@ -5,7 +5,7 @@ import './Blogs.css';
 
 const Blogs = () => {
   return (
-    <div className="container p-5">
+    <div className="container blogscontainer">
   <div className="headings">
         <h6 className="text-primary mb-3 fw-bold blog-head">Build Meaningful Connections</h6>
       <h3 className="fw-bold mb-3">Smart Tools to Strengthen Customer Relationships</h3>

@@ -49,12 +49,15 @@
 
 
     /* SET 02 */
-    --gradient-color-1: #9FD3EA;
+    /* --gradient-color-1: #9FD3EA;
     --gradient-color-2: #FE273E;
     --gradient-color-3: #FFC757;
-    --gradient-color-4: #A24DF2;
+    --gradient-color-4: #A24DF2; */
     
-      
+     --gradient-color-1: #9FD3EA ;
+     --gradient-color-2: #175069 ;
+     --gradient-color-3: #DAB2FF ;
+     --gradient-color-4: #A24DF2;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -159,7 +162,11 @@ p {
     letter-spacing: 0.0125rem;
 }
 .modular-section{
-    background-color: #f6f9fc !important;
+    /* background-color: #f6f9fc !important; */
+    background-image: url('/images/FeaturesBg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 100%;
     padding-bottom: 9rem;
     padding-top: 3rem;
     /* display: flex;

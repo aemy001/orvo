@@ -17,10 +17,38 @@ width: 24rem !important;
 }
 .reviewslider{
 background-color: #f6f9fc;
-background-image: url('/images/Pattern.png');
+background-image: url('/images/FeaturesBg.png');
 background-repeat: no-repeat;
 /* background-position: center center; */
+background-size: cover;
 padding-top: 10rem;
 padding-bottom: 10rem;
 margin-top: -98px;
+}
+.slider-progress {
+  display: block;
+  width: 50%;
+  height: 2px;
+  border-radius: 10px;
+  overflow: hidden;
+   margin: 40px auto 0;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #ddd;
+  background-image: linear-gradient(to right, #035F7C, #035F7C);
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+
+  transition: background-size 0.4s ease-in-out;
+}
+
+.slider__label.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }

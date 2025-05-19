@@ -1,5 +1,6 @@
 // ReviewSlider.jsx
 'use client'
+import { useRef, useEffect } from 'react';
 import Slider from 'react-slick';
 import ReviewCard from '../ReviewCard/ReviewCard';
 import './ReviewSlide.css'
@@ -40,18 +41,35 @@ const reviews = [
 ];
 
 export default function ReviewSlider() {
+ const progressBarRef = useRef(null);
+  const progressLabelRef = useRef(null);
+  const sliderRef = useRef(null);
+
   const settings = {
     dots: false,
-    arrows:false,
+    arrows: false,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-     autoplay: true,
+    autoplay: true,
     autoplaySpeed: 2000,
+    beforeChange: (current, next) => {
+      const totalSlides = reviews.length - 1;
+      const calc = (next / totalSlides) * 100;
+
+      if (progressBarRef.current) {
+        progressBarRef.current.style.backgroundSize = `${calc}% 100%`;
+        progressBarRef.current.setAttribute('aria-valuenow', calc.toString());
+      }
+
+      if (progressLabelRef.current) {
+        progressLabelRef.current.textContent = `${Math.round(calc)}% completed`;
+      }
+    },
     responsive: [
       {
-        breakpoint: 768, 
+        breakpoint: 768,
         settings: {
           slidesToShow: 1,
         },
@@ -69,7 +87,18 @@ export default function ReviewSlider() {
         <ReviewCard key={index} review={review} />
       ))}
     </Slider>
+     <div
+          className="slider-progress"
+          ref={progressBarRef}
+          role="progressbar"
+          aria-valuemin="0"
+          aria-valuemax="100"
+        >
+          <span className="slider__label sr-only" ref={progressLabelRef}></span>
+        </div>
+  
     </div>
+    
     </section>
 
    

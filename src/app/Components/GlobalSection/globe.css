@@ -21,7 +21,7 @@ background-clip: calc(330px -1vw);
   right: 8rem;
   top: -1rem;
   mix-blend-mode: multiply;
-  background-color: #00d4ff;
+  background-color: #035F7C;
   opacity: 0.9;
 }
 .global .tall {
@@ -30,7 +30,7 @@ background-clip: calc(330px -1vw);
   position: absolute;
   left: 0;
   top: -2rem;
-  background-color: #635bff;
+  background-color: #6DBCDF;
 }
 .global-content {
   /* padding-inline: 2rem; */
@@ -130,7 +130,7 @@ background-clip: calc(330px -1vw);
   position: absolute;
   right: 0;
   bottom: -1rem;
-  background-color: #00d4ff;
+  background-color: #035F7C;
   mix-blend-mode: multiply;
   opacity: 0.9;
 }
@@ -141,5 +141,5 @@ background-clip: calc(330px -1vw);
   position: absolute;
   right: 0;
   bottom: -3rem;
-  background-color: #635bff;
+  background-color: #6DBCDF;
 }

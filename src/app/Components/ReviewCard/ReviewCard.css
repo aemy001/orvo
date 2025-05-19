@@ -1,8 +1,8 @@
 /* components/ReviewCard.module.css */
 .cardResponsive {
   width: 100%;
-  max-width: 24rem;
-  height: 400px;
+  max-width: 27rem;
+  height: 380px;
   margin-left: auto;
   margin-right: auto;
 }
