@@ -79,3 +79,23 @@
     transform: translateX(0.1875rem);
     transition: 0.15s transform;
 }
+.purpleButtonWithNoBackground{
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    font-style: normal;
+    line-break: 1.5rem;
+    background-color: transparent;
+    border-radius: 12px;
+    border: transparent;
+    cursor: pointer;
+    color: #635bff;
+    background-color: transparent;
+}
+.purpleButtonWithNoBackground:hover{
+    color: black;
+}
+.purpleButtonWithNoBackground:hover .arrow {
+    transform: translateX(0.1875rem);
+    transition: 0.15s transform;
+}

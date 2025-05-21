@@ -3,10 +3,16 @@
 padding: 5vw 7vw;
 }
 .cardShadow {
-  box-shadow:  0px 18px 36px -18px rgba(0, 0, 0, 0.1), 0px 30px 45px -30px rgba(50, 50, 93, 0.25);
+  box-shadow: 0px 18px 36px -18px rgba(0, 0, 0, 0.1), 0px 30px 45px -30px rgba(50, 50, 93, 0.25);
   border: none;
   border-radius: 12px;
-  /* height: 600px; */
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blogscontainer .card-body{
+  padding: 0px 0.5rem 1rem 0.5rem !important;
 }
 
 .card-title {
@@ -15,7 +21,9 @@ padding: 5vw 7vw;
 }
 
 .card-text a {
-  text-decoration: underline;
+  text-decoration: none;
+  color: #635bff;
+  font-weight: 600;
 }
 .headings{
   width: 70%;
@@ -30,6 +38,51 @@ padding: 5vw 7vw;
   letter-spacing: 0.2px;
   line-height: 28px;
 }
-.cardShadow .card-body img{
-height: max-content;
+.blogscontainer h6{
+color: #635bff; 
+}
+.blogscontainer h5{
+color: #0a2540; 
+font-size: 26px !important;
+}
+
+.cardShadow:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 25px 50px -15px rgba(50, 50, 93, 0.3);
+}
+
+.cardShadow .card-body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+.cardShadow:hover .card-body {
+  transform: translateY(-10px);
+}
+
+.cardShadow .card-body img {
+  transition: all 0.3s ease;
+}
+
+.cardShadow:hover .card-body img {
+  height: 150px;
+  /* object-fit: contain; */
+  opacity: 0.9;
+}
+
+.cardShadow Button {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+  align-self: flex-start; 
+  margin-left: 0 !important;
+}
+
+.cardShadow:hover Button {
+  opacity: 1;
+  transform: translateY(0px);
 }

@@ -7,6 +7,9 @@ const Button = ({ text, type }) => {
     let buttonStyle = "";
 
     switch (type) {
+        case "purpleButtonWithNoBackground":
+            buttonStyle = styles.purpleButtonWithNoBackground;
+            break;
         case "whiteButtonWithBackground":
             buttonStyle = styles.whiteButtonWithBackground;
             break;
@@ -30,7 +33,13 @@ const Button = ({ text, type }) => {
             <svg   className={styles.arrow} width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
            <path 
   d="M0.699951 0.5L4.69995 4.5L0.699951 8.5" 
-  stroke={type === "blackButtonNoBackground" ? "black" : "white"} 
+  stroke={
+type === "blackButtonNoBackground"
+  ? "black"
+  : type === "purpleButtonWithNoBackground"
+  ? "#635bff"
+  : "white"
+}
 />
 </svg>
         </button>
