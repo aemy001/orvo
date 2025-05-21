@@ -16,7 +16,7 @@ const ModularSection = () => {
             </div>
         </div>
         <div className="col-md-7 col-lg-7 col-sm-12 p-3 d-flex justify-content-center align-items-center">
-            <Image width={600} height={500} src="/images/features/mainheadingimage.png"/>
+            <Image width={600} height={500} src="/images/features/MainImage.png"/>
         </div>
       </div>
       </div>
