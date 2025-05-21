@@ -174,11 +174,29 @@ p {
     padding: 5rem;
   
 }
+
+.privacy-header{
+    padding-bottom: 7.2vw;
+    margin: 0 auto;
+}
+.privacy-header h2{
+    font-size: 44px;
+    line-height: 1.2;
+    font-weight: 500 !important;
+
+}
+.terms-p {
+    color: #94a3b8;
+    font-size: 16px;
+}
 .privacy-container{
     margin: 0 auto;
 }
 .privacy h3{
-    font-size: 24px;
+    font-size: 21px !important;
+    line-height: 1.2;
+    color: #15545b;
+    font-weight: 500 !important;
 }
 .privacy ul li{
     font-size: 16px;
