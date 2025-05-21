@@ -41,7 +41,7 @@ const Blogs = () => {
               <img src="/images/blog.png" alt="Experts" className="img-fluid mb-3" />
               <h5 className="card-title px-3">Build with Stripe-certified experts</h5>
               <p className="card-text px-3">
-                Work with a Stripe consulting partner that can integrate and deploy Stripe solutions for you.
+                Work with a Stripe consulting partner that can integrate and deploy Stripe solutions for you consulting partner.
               </p>
               <Button
                   text="Read More"
@@ -59,8 +59,7 @@ const Blogs = () => {
               <h5 className="card-title px-3">Try our no-code products</h5>
               <p className="card-text px-3">
                 Create an <a href="#">invoice</a>, accept an <a href="#">in-person payment</a> with your phone, or 
-                share a <a href="#">payment link</a> directly from your Dashboard to start generating revenue in minutes—
-                no code required.
+                share a <a href="#">payment link</a> directly from your Dashboard to start generating revenue.
               </p>
               <Button
                   text="Read More"

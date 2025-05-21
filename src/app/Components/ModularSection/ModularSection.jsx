@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from "next/image";
 import Button from '../Button/Button';
+import './modular.css'
 
 const ModularSection = () => { 
   return (
@@ -14,8 +15,8 @@ const ModularSection = () => {
                 <p>Cut costs, increase revenue, and run your business smarter with SORIN — a fully integrated, AI-powered platform. Manage relationships, automate workflows, and scale new growth opportunities with ease.</p>
             </div>
         </div>
-        <div className="col-md-7 col-lg-7 col-sm-12 p-3">
-            <Image width={300} height={300} src="/"/>
+        <div className="col-md-7 col-lg-7 col-sm-12 p-3 d-flex justify-content-center align-items-center">
+            <Image width={600} height={500} src="/images/features/mainheadingimage.png"/>
         </div>
       </div>
       </div>
@@ -43,8 +44,8 @@ const ModularSection = () => {
                     </ul>
             </div>
         </div>
-        <div className="col-md-7 col-lg-7 col-sm-12 p-3">
-            <Image width={300} height={300} src="/"/>
+        <div className="col-md-7 col-lg-7 col-sm-12 p-3 d-flex justify-content-center align-items-center">
+            <Image width={600} height={500} src="/images/features/Tasks.png"/>
         </div>
       </div>
       </div>
@@ -72,8 +73,8 @@ const ModularSection = () => {
                     </ul>
             </div>
         </div>
-        <div className="col-md-7 col-lg-7 col-sm-12 p-3">
-            <Image width={300} height={300} src="/"/>
+        <div className="col-md-7 col-lg-7 col-sm-12 p-3 d-flex justify-content-center align-items-center">
+            <Image width={600} height={500} src="/images/features/Notes.png"/>
         </div>
       </div>
       </div>
@@ -98,8 +99,8 @@ text="Get Started"
                     </ul>
             </div>
         </div>
-        <div className="col-md-7 col-lg-7 col-sm-12 p-3">
-            <Image width={300} height={300} src="/"/>
+        <div className="col-md-7 col-lg-7 col-sm-12 p-3 d-flex justify-content-center align-items-center">
+            <Image width={600} height={500} src="/images/features/Contact.png"/>
         </div>
       </div>
       </div>
@@ -127,8 +128,8 @@ text="Get Started"
                     </ul>
             </div>
         </div>
-        <div className="col-md-7 col-lg-7 col-sm-12 p-3">
-            <Image width={300} height={300} src="/"/>
+        <div className="col-md-7 col-lg-7 col-sm-12 p-3 d-flex justify-content-center align-items-center">
+            <Image width={600} height={500} src="/images/features/ActivityTracking.png"/>
         </div>
       </div>
       </div>
@@ -156,8 +157,8 @@ text="Get Started"
                     </ul>
             </div>
         </div>
-        <div className="col-md-7 col-lg-7 col-sm-12 p-3">
-            <Image width={300} height={300} src="/"/>
+        <div className="col-md-7 col-lg-7 col-sm-12 p-3 d-flex justify-content-center align-items-center">
+            <Image width={600} height={500} src="/images/features/AI.png"/>
         </div>
       </div>
       </div>
@@ -184,8 +185,8 @@ text="Get Started"
                     </ul>
             </div>
         </div>
-        <div className="col-md-7 col-lg-7 col-sm-12 p-3">
-            <Image width={300} height={300} src="/"/>
+        <div className="col-md-7 col-lg-7 col-sm-12 p-3 d-flex justify-content-center align-items-center">
+            <Image width={600} height={500} src="/images/features/composer.png"/>
         </div>
       </div>
       </div>
@@ -214,8 +215,8 @@ text="Get Started"
                     </ul>
             </div>
         </div>
-        <div className="col-md-7 col-lg-7 col-sm-12 p-3">
-            <Image width={300} height={300} src="/"/>
+        <div className="col-md-7 col-lg-7 col-sm-12 p-3 d-flex justify-content-center align-items-center">
+            <Image width={600} height={500} src="/images/features/Newsfeed.png"/>
         </div>
       </div>
       </div>
@@ -244,8 +245,8 @@ text="Get Started"
                     </ul>
             </div>
         </div>
-        <div className="col-md-7 col-lg-7 col-sm-12 p-3">
-            <Image width={300} height={300} src="/"/>
+        <div className="col-md-7 col-lg-7 col-sm-12 p-3 d-flex justify-content-center align-items-center">
+            <Image width={600} height={500} src="/images/features/Kanban.png"/>
         </div>
       </div>
       </div>
