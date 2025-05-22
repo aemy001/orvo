@@ -9,8 +9,11 @@
     /* display: flex;
     justify-content: center; */
 }
+.modular-section-container{
+    padding: 0 0 220px 7.2vw;
+}
 .modular-section ul{
-    padding-top: 44px;
+    padding-top: 24px;
 }
 .modular-section ul div{
     font-size: 15px;
@@ -26,17 +29,28 @@
 /* .modular-section .modular-content{
     padding: 0 0 0 7.2vw;
 } */
+ /* styles/Home.module.css */
+/* .stickyContainer {
+  position: sticky;
+  top: 20px;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
 .modular-section h5{
     color: #635bff;
     font-weight: 700;
       font-size: 18px;
     line-height: 1.55;
 }
-.modular-section .container.two{
-    padding-top: 220px;
-}
+/* .modular-section .two{
+    padding-bottom: 220px;
+} */
 .modular-section img{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    border-radius: 12px;
 }
 .modular-section h2{
     font-size: 58px;
