@@ -6,6 +6,7 @@ import Button from "../Button/Button";
 import './modular.css'
 
 export default function ModularStickyScrollWrapper() {
+
   const content = modularSections.map((section) => ({
     title: section.title,
     description: section.description,
@@ -59,11 +60,15 @@ export default function ModularStickyScrollWrapper() {
            {content.map((item, index) => (
             <div key={item.title + index} className="modular-content modular-section-container">
               {item.icon ? (
-                <h4 className="d-flex align-items-center gap-1 ">
+                <motion.h4    initial={{ opacity: 0 }}
+                  animate={{ opacity: activeCard === index ? 1 : 0.3 }}
+                  transition={{ duration: 0.5 }} className="d-flex align-items-center gap-1 ">
                   {item.icon} {item.tag}
-                </h4>
+                </motion.h4>
               ) : (
-                <h5 className="">{item.tag}</h5>
+                <motion.h5 className=""    initial={{ opacity: 0 }}
+                  animate={{ opacity: activeCard === index ? 1 : 0.3 }}
+                  transition={{ duration: 0.5 }}>{item.tag}</motion.h5>
               )}
               {index === 0 ? (
                 <motion.h2
@@ -114,7 +119,7 @@ export default function ModularStickyScrollWrapper() {
 
         {/* Right sticky image/content */}
         <div
-          className="d-none d-lg-block position-sticky col-md-7 col-lg-7 col-sm-12 p-3 d-flex justify-content-center align-items-end"
+          className="d-none d-lg-block position-sticky rightsection col-md-7 col-lg-7 col-sm-12  d-flex justify-content-center align-items-end"
           style={{ top: "60px", width: "650px", height: "600px" }}
         >
           <AnimatePresence mode="wait">

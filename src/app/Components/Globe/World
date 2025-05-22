@@ -1,0 +1,31 @@
+"use client";
+import React, { useRef, useEffect } from "react";
+import Globe from "react-globe.gl";
+
+const World = ({ data = [], globeConfig = {} }) => {
+  const globeEl = useRef();
+
+  useEffect(() => {
+    if (globeEl.current) {
+      globeEl.current.pointOfView({ lat: globeConfig.initialPosition.lat, lng: globeConfig.initialPosition.lng }, 1000);
+    }
+  }, []);
+
+  return (
+    <Globe
+      ref={globeEl}
+      arcsData={data}
+      arcColor={() => ["#00f", "#0ff"]}
+      arcStroke={globeConfig.arcStroke || 0.5}
+      arcDashLength={0.4}
+      arcDashGap={4}
+      arcDashInitialGap={() => Math.random() * 5}
+      arcDashAnimateTime={globeConfig.arcTime || 1000}
+      globeImageUrl="//unpkg.com/three-globe/example/img/earth-dark.jpg"
+      backgroundColor="rgba(0,0,0,0)"
+      {...globeConfig}
+    />
+  );
+};
+
+export default World;

@@ -77,7 +77,7 @@ const modularSections = [
       { label: 'Draft', desc: 'Auto-generate emails tailored to your conversation.' },
       { label: 'Summarize', desc: 'Get quick AI-powered recaps of meetings and calls.' },
     ],
-    image: '/images/features/AI.png',
+    image: '/images/features/Tasks.png',
   },
    {
     id: 'composer',
@@ -90,7 +90,7 @@ const modularSections = [
       { label: 'Trigger', desc: ' Automate emails based on contact behavior and workflow stages.' },
       { label: 'Template', desc: 'Use smart templates that adapt to user data. Deliver – Ensure reliable, on-time delivery of every email.' },
     ],
-    image: '/images/features/Composer.png',
+    image: '/images/features/Notes.png',
   },
     {
     id: 'rss',

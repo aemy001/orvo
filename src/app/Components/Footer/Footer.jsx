@@ -1,11 +1,13 @@
 // components/Footer.js
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 import "./Footer.css";
+import AuroraBackground from "./aurorabg";
 
 const Footer = () => {
   return (
-    <footer className={"text-dark pt-5 pb-3 footerBg"}>
+       
+    <footer className={"text-dark footerBg"}>
+       <AuroraBackground showRadialGradient={true}>
       <div className="container">
         <div className="row text-center text-md-start p-4">
           {/* Logo */}
@@ -127,7 +129,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
+         </AuroraBackground>
     </footer>
+ 
   );
 };
 
