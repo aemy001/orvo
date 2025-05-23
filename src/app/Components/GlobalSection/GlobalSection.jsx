@@ -1,7 +1,12 @@
 import React from "react";
 // import {GlobeDemo} from './myglobedemo'
-import Globe from '../Globe/Globe'
+// import Globe from '../Globe/Globe'
 import "./globe.css";
+import dynamic from "next/dynamic";
+
+const GlobeComponent = dynamic(() => import("../Globe/Globe"), {
+  ssr: false,
+});
 
 function Global() {
   return (
@@ -31,7 +36,7 @@ function Global() {
         </div>
         <div className="col-md-7 col-lg-7">
           <div className="globe-wrapper">
-    <Globe />
+    <GlobeComponent />
   </div>
         </div>
       </div>
