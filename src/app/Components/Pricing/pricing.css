@@ -14,6 +14,7 @@
 .pricing button{
     border: 1px solid #014360 !important;
     border-radius: 12px !important;
+    padding: 12px 24px;
 }
 .pricing h3{
     font-size: 32px !important;

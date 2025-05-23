@@ -120,7 +120,7 @@ export default function ModularStickyScrollWrapper() {
         {/* Right sticky image/content */}
         <div
           className="d-none d-lg-block position-sticky rightsection col-md-7 col-lg-7 col-sm-12  d-flex justify-content-center align-items-end"
-          style={{ top: "60px", width: "650px", height: "600px" }}
+          style={{ top: "30px", width: "650px", height: "650px" }}
         >
           <AnimatePresence mode="wait">
             <motion.div

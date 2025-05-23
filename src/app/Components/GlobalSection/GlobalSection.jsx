@@ -1,5 +1,6 @@
 import React from "react";
 // import {GlobeDemo} from './myglobedemo'
+import Globe from '../Globe/Globe'
 import "./globe.css";
 
 function Global() {
@@ -10,8 +11,8 @@ function Global() {
           <div className="short"></div>
         </div>
       </div>
-      <div className="row d-block">
-        <div className="col-md-5">
+      <div className="row">
+        <div className="col-md-5 col-lg-5">
           <div className="global-content">
             <span className="global-head">Global Reach</span>
 
@@ -28,8 +29,10 @@ function Global() {
             </p>
           </div>
         </div>
-        <div className="col-md-7">
-          <div className="container">{/* <GlobeDemo/> */}</div>
+        <div className="col-md-7 col-lg-7">
+          <div className="globe-wrapper">
+    <Globe />
+  </div>
         </div>
       </div>
       <div className="global-details col-md-12">

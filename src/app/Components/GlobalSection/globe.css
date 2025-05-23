@@ -14,6 +14,21 @@ background-size: cover;
 background-clip: calc(330px -1vw);
   translate: 0 -20%;
 }
+.globe-wrapper {
+    position: absolute;
+    top: 0;
+    /* right: 0; */
+    /* left: 0; */
+  transform: skewY(6deg) translate(0, 5%);
+}
+
+.globe-wrapper canvas {
+  width: 1000px !important;
+  height: 800px !important;
+  display: block;
+    filter: drop-shadow(0 0 10px #ffffff20) drop-shadow(0 0 20px #ffffff20);
+      /* background: transparent !important; */
+}
 .global .short {
   width: 15rem;
   height: 3rem;

@@ -4,7 +4,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Contents from "./Components/Contents/Contents";
 import LogoGrid from "./Components/LogoGrid/LogoGrid";
 import GlobalSection from "./Components/GlobalSection/GlobalSection";
-// import Globe from "./Components/Globe/Globe";
+import Globe from "./Components/Globe/Globe";
 import Footer from "./Components/Footer/Footer";
 import AiSection from "./Components/AiSection/AiSection";
 import Pricing from "./Components/Pricing/Pricing";
