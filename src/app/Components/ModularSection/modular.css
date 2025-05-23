@@ -1,38 +1,37 @@
-.modular-section{
-    /* background-color: #f6f9fc !important; */
-    background-image: url('/images/FeaturesBg.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 100% 100%;
-    padding-bottom: 9rem;
-    padding-top: 3rem;
-    /* display: flex;
+.modular-section {
+  /* background-color: #f6f9fc !important; */
+  background-image: url("/images/FeaturesBg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 100%;
+  padding-bottom: 9rem;
+  padding-top: 3rem;
+  /* display: flex;
     justify-content: center; */
 }
-.modular-section-container{
-    padding: 0 0 220px 7.2vw;
+.modular-section-container {
+  padding: 0 0 220px 7.2vw;
 }
-.modular-section ul{
-    padding-top: 24px;
+.modular-section ul {
+  padding-top: 24px;
 }
-.modular-section ul div{
-    font-size: 15px;
-    font-weight: 500;
-   margin: 4px 0;
-   color: #425466;
+.modular-section ul div {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 4px 0;
+  color: #425466;
 }
-.modular-section ul div a{
-  color: #635bff ;  
+.modular-section ul div a {
+  color: #635bff;
   cursor: pointer;
-
 }
-.rightsection{
-    margin-left: 3.5rem;
+.rightsection {
+  margin-left: 3.5rem;
 }
 /* .modular-section .modular-content{
     padding: 0 0 0 7.2vw;
 } */
- /* styles/Home.module.css */
+/* styles/Home.module.css */
 /* .stickyContainer {
   position: sticky;
   top: 20px;
@@ -42,25 +41,25 @@
   justify-content: center;
 } */
 
-.modular-section h5{
-    color: #635bff;
-    font-weight: 700;
-      font-size: 18px;
-    line-height: 1.55;
+.modular-section h5 {
+  color: #635bff;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.55;
 }
 /* .modular-section .two{
     padding-bottom: 220px;
 } */
-.modular-section img{
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
-    border-radius: 12px;
+.modular-section img {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  border-radius: 12px;
 }
-.modular-section h2{
-    font-size: 58px;
-    color: #0a2540;
-    letter-spacing: -0.02em;
-    line-height: 1.1;
-    margin-top: 24px;
-    margin-bottom: 32px;
-    
+.modular-section h2 {
+  font-size: 58px;
+  color: #0a2540;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  margin-top: 24px;
+  margin-bottom: 32px;
 }

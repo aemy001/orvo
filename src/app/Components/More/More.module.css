@@ -10,7 +10,7 @@
        /* margin-top: -136px; */
 }
 
-.primaryBtn {
+.sectionBg .primaryBtn {
   background-color: #635bff;
   color: #fff;
   font-weight: 500;
@@ -19,12 +19,12 @@
   text-decoration: none;
 }
 
-.primaryBtn:hover {
+.sectionBg .primaryBtn:hover {
   background-color: #5346e8;
   color: #fff;
 }
 
-.withDivider {
+.sectionBg .withDivider {
   border-left: 1px dashed #d3dce6;
   padding-left: 1.5rem;
 }

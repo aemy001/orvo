@@ -59,36 +59,18 @@ export default function GithubGb() {
 
 // 🔹 Fake location points
 const samplePoints = [
-  { lat: -23.5, lng: -46.6 },   // São Paulo
-  { lat: -34.6, lng: -58.4 },   // Buenos Aires
-  { lat: 4.6, lng: -74.1 },     // Bogotá
-  { lat: -33.4, lng: -70.6 },   // Santiago
-  { lat: -12.0, lng: -77.0 },   // Lima
-  { lat: 60.0, lng: 100.0 },    // Central Siberia, Russia
-  { lat: 50.0, lng: 135.0 },    // Russian Far East
-  { lat: 40.0, lng: 120.0 },    // Northeastern China
-  { lat: 30.0, lng: 140.0 },    // South of Japan
-  { lat: 10.0, lng: 130.0 },    // Western Pacific Ocean
-
-  // 🔽 New points toward Antarctica
-  // { lat: -45.0, lng: 170.5 },   // Dunedin, NZ
-  // { lat: -54.8, lng: -68.3 },   // Ushuaia, Argentina
-  // { lat: -60.0, lng: -45.0 },   // Southern Atlantic Ocean
-  // { lat: -70.0, lng: 90.0 },    // East Antarctica
-  // { lat: -75.0, lng: 0.0 },     // Queen Maud Land
-  // { lat: -80.0, lng: 120.0 },   // Dome A region
-  // { lat: -85.0, lng: -135.0 },  // Near Amundsen–Scott Station
+  { lat: -23.5, lng: -46.6 },   
+  { lat: -34.6, lng: -58.4 },   
+  { lat: 4.6, lng: -74.1 },     
+  { lat: -33.4, lng: -70.6 },  
+  { lat: -12.0, lng: -77.0 },
+  { lat: 60.0, lng: 100.0 },    
+  { lat: 50.0, lng: 135.0 },    
+  { lat: 40.0, lng: 120.0 },    
+  { lat: 30.0, lng: 140.0 },   
+  { lat: 10.0, lng: 130.0 },    
 ];
 
-
-// 🔹 Fake arcs
-// const sampleArcs = samplePoints.map((p) => ({
-//   startLat: 0,
-//   startLng: 0,
-//   endLat: p.lat,
-//   endLng: p.lng,
-// }));
-// First half: arcs from Equator
 const arcsFromEquator = samplePoints.slice(0, 5).map((p) => ({
   startLat: 0,
   startLng: 0,
@@ -96,7 +78,6 @@ const arcsFromEquator = samplePoints.slice(0, 5).map((p) => ({
   endLng: p.lng,
 }));
 
-// Second half: arcs from far northeast (more spread)
 const arcsFromFarEast = samplePoints.slice(5).map((p) => ({
   startLat: 85.0,
   startLng: -170.0,
