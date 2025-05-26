@@ -37,7 +37,7 @@ const Button = ({ text, type }) => {
 type === "blackButtonNoBackground"
   ? "black"
   : type === "purpleButtonWithNoBackground"
-  ? "#635bff"
+  ? "#52A5C8"
   : "white"
 }
 />

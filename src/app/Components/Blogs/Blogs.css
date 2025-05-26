@@ -23,7 +23,7 @@ padding: 5vw 7vw;
 
 .card-text a {
   text-decoration: none;
-  color: #635bff;
+  color: #52A5C8;
   font-weight: 600;
 }
 .headings{
@@ -33,15 +33,13 @@ padding: 5vw 7vw;
    display: block;
   margin-block: 1rem;
   margin-top: 2rem;
-  color: #00d4ff;
+  color: #52A5C8;
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 0.2px;
   line-height: 28px;
 }
-.blogscontainer h6{
-color: #635bff; 
-}
+
 .blogscontainer h5{
 color: #0a2540; 
 font-size: 26px !important;
@@ -66,13 +64,11 @@ font-size: 26px !important;
 }
 
 .cardShadow .card-body img {
-  transition: all 0.3s ease;
-}
-.cardShadow .card-body img {
   height: 200px;
   object-fit: cover;
   /* object-fit: contain; */
   opacity: 0.9;
+  transition: height 0.2s ease-in;
 }
 
 .cardShadow:hover .card-body img {

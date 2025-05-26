@@ -39,10 +39,8 @@ export default function Home() {
              <Pricing/>
              <ReviewSlider/>
              <AiSection/>
-         
             <Faqs data={faqsData} />
               <Blogs/>
-              
               <More/>
              <Footer/>
                {/* <Globe/> */}

@@ -8,7 +8,7 @@ const Blogs = () => {
   return (
     <div className="container blogscontainer">
   <div className="headings">
-        <h6 className="text-primary mb-3 fw-bold blog-head">Build Meaningful Connections</h6>
+        <h6 className="mb-3 fw-bold blog-head">Build Meaningful Connections</h6>
       <h3 className="fw-bold mb-3">Smart Tools to Strengthen <br/> Customer Relationships</h3>
       <p className="text-muted mb-3">
       Orvo helps you manage leads, automate conversations, and track interactions—so you can focus on building real, lasting connections with your customers.
