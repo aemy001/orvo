@@ -14,12 +14,11 @@
   right: -10px;
   bottom: -10px;
   pointer-events: none;
-  background-image:
-    repeating-linear-gradient(
+  background-image: repeating-linear-gradient(
       100deg,
-      #9FD3EA 10%,
-      #DAB2FF 15%,
-      #9FD3EA  20%,
+      #9fd3ea 10%,
+      #dab2ff 15%,
+      #9fd3ea 20%,
       #ddd6fe 25%,
       #60a5fa 30%
     ),
@@ -34,14 +33,18 @@
   background-size: 300% 200%;
   background-position: 50% 50%, 50% 50%;
   opacity: 0.5;
-  filter: blur(10px) ;
+  filter: blur(10px);
   animation: aurora 60s linear infinite;
   z-index: 1;
 }
 
 .radial-mask .aurora-overlay {
   mask-image: radial-gradient(ellipse at 100% 0%, black 10%, transparent 70%);
-  -webkit-mask-image: radial-gradient(ellipse at 100% 0%, black 10%, transparent 70%);
+  -webkit-mask-image: radial-gradient(
+    ellipse at 100% 0%,
+    black 10%,
+    transparent 70%
+  );
 }
 
 @keyframes aurora {
