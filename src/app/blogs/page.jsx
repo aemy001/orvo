@@ -1,95 +1,126 @@
-import Image from 'next/image';
-import { Container, Row, Col } from 'react-bootstrap';
-import Footer from '../Components/Footer/Footer'
-import Background from '../Components/HeroBackground/BackgroundBlogs'
-import Navbar from '../Components/Navbar/Navbar'
-
+import Image from "next/image";
+import { Container, Row, Col } from "react-bootstrap";
+import Footer from "../Components/Footer/Footer";
+import Background from "../Components/HeroBackground/BackgroundBlogs";
+import NavbarBlack from "../Components/Navbar/NavbarBlack";
+import Button from "../Components/Button/Button";
 
 const blogs = [
   {
     id: 1,
-    title: 'The Power of Personalization in E-Commerce',
-    category: 'E-Commerce',
-    description: 'Discover how personalized shopping experiences can boost customer engagement and sales.',
-    image: '/images/blog.png',
+    title: "Using AI to optimize payments performance with the Payments Intelligence Suite",
+    description:
+      "Stripe has been using AI in our payments products for over a decade, and we’re continuing to expand how we put AI to use on your behalf. Last week at Stripe Sessions, we introduced our Payments Intelligence Suite, which uses AI to make hundreds of automated, real-time decisions to maximize your profits—with no effort required.",
+    image: "/images/blog2.webp",
     author: {
-      name: 'George Samuel',
-      avatar: '/images/reviews/1.jpg',
+      name: "John Affacki",
+      avatar: "/images/reviews/2.jpg",
     },
-    readTime: '2 min read',
+   
   },
-  {
-    id: 2,
-    title: 'Why Mobile Optimization Matters in 2025',
-    category: 'Mobile UX',
-    description: 'Learn how mobile-first design is reshaping the digital customer journey.',
-    image: '/images/blog.png',
-    author: {
-      name: 'Fatima Noor',
-      avatar: '/images/reviews/1.jpg',
-    },
-    readTime: '3 min read',
-  },
+  // {
+  //   id: 2,
+  //   title: "Why Mobile Optimization Matters in 2025",
+  //   description:
+  //     "Learn how mobile-first design is reshaping the digital customer journey.",
+  //   image: "/images/blog1.webp",
+  //   author: {
+  //     name: "Fatima Noor",
+  //     avatar: "/images/reviews/3.png",
+  //   },
+  // },
   // Add more blog objects here as needed
 ];
 
 export default function BlogPage() {
   return (
-   <>
-    <Background />
-               <Navbar />
-               <Container className="">
-                   <Row  className="align-items-center py-5">
- <Image
-              src="/images/blog1.png"
-              width={300}
-              height={300}
-              className="img-fluid rounded-3"
-            />
-            </Row>
-               </Container>
-    <Container className="my-4">
-        
-      {blogs.map((blog) => (
-        <Row key={blog.id} className="align-items-center py-5">
-          {/* Image Section */}
-          <Col md={3} sm={12}>
-            <Image
-              src={blog.image}
-              alt={blog.title}
-              width={400}
-              height={200}
-              className="img-fluid rounded-3"
-            />
-          </Col>
-
-          {/* Text Content Section */}
-          <Col md={9} sm={12}>
-            <div className='px-3'>
-              <h5 className="fw-bold">{blog.title}</h5>
-              <p className="text-primary fw-semibold">{blog.category}</p>
-              <p className="text-muted">{blog.description}</p>
-
-              {/* Author + Read time */}
-              <div className="d-flex align-items-center justify-content-between mt-3">
-                <div className="d-flex align-items-center">
+    <>
+      <Background />
+      <NavbarBlack />
+      <Container className="p-5">
+        <div className="px-2 bg-white shadow-lg rounded-3 mx-auto" style={{ maxWidth: "1000px" }}>
+          <Row className="d-flex justify-content-center py-3 text-left">
+            <Col md={5} lg={5}>
+              <div className="blog-image ms-2">
+                <Image
+                  src="/images/blog1.webp"
+                  alt="blog1"
+                  width={400}
+                  height={400}
+                  className="img-fluid rounded-3"
+                />
+              </div>
+            </Col>
+            <Col md={7} lg={7}>
+              <div className="blog-card p-3">
+                <h3 className="fw-bold my-3">
+                  Introducing Stablecoin Financial Accounts in 101 countries
+                </h3>
+                <div className="d-flex align-items-center mb-3">
                   <Image
-                    src={blog.author.avatar}
-                    alt={blog.author.name}
-                    width={40}
-                    height={40}
+                    src="/images/reviews/4.png"
+                    alt="blog"
+                    width={50}
+                    height={50}
                     className="rounded-circle me-2"
                   />
-                  <span>{blog.author.name}</span>
+                  <span className="fw-bold">George Williams</span>
                 </div>
-                <span className="text-muted">{blog.readTime}</span>
+                <p className="text-muted mb-3">
+                  With Stablecoin Financial Accounts, businesses in 101
+                  countries can now easily access a dollar-denominated
+                  stablecoin balance to store and move money on crypto or
+                  established financial rails.
+                </p>
+                <Button className="p-0" text="Read More" type="purpleButtonWithNoBackground" style={{padding:'0px'}} />
               </div>
-            </div>
-          </Col>
-        </Row>
-      ))}
-    </Container>
-    <Footer/>
+            </Col>
+          </Row>
+        </div>
+      </Container>
+      <Container className="my-4 py-5">
+        <div className="px-2  mx-auto" style={{ maxWidth: "1000px" }}>
+        {blogs.map((blog) => (
+          <Row key={blog.id} className="d-flex justify-content-center py-3">
+       
+         
+            <Col md={7} lg={7}>
+              <div className="blog-card px-5 py-3">
+                <h3 className="fw-bold my-3">
+                  {blog.title}
+                </h3>
+             
+                <p className="text-muted mb-3">{blog.description}
+                </p>
+                <Button className="p-0" text="Read More" type="purpleButtonWithNoBackground" />
+              </div>
+            </Col>
+          <Col md={5} lg={5}>
+             <div className="d-flex align-items-center justify-content-end mb-3">
+                  <Image
+                    src={blog.author.avatar}
+                    alt="blog"
+                   width={50}
+                    height={50}
+                    className="rounded-circle me-2 shadow-sm"
+                  />
+                  <span className="fw-bold">{blog.author.name}</span>
+                </div>
+              <div className="blog-image ">
+                <Image
+                  src={blog.image}
+                  alt="blog1"
+                  width={400}
+                  height={600}
+                  className="img-fluid rounded-3 shadow"
+                />
+              </div>
+            </Col>
+          </Row>
+        ))}
+         </div>
+      </Container>
+      <Footer />
     </>
   );
 }

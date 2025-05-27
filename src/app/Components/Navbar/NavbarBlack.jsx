@@ -7,7 +7,7 @@ import Button from "../Button/Button";
 
 const Navbar = () => {
     return (
-        <nav className={styles.nav1}>
+        <nav className={styles.nav2}>
             <ul className={styles.ul}>
                 <li className={styles.logo}>
                     <Image alt="logo" src={Logo} height={40} width={100}></Image>
@@ -39,8 +39,8 @@ const Navbar = () => {
                 </li>
             </ul>
             <div className={styles.buttons}>
-                <Button text="Contact sales" type="whiteButtonNoBackground" />
-                <Button text="Sign in" type="whiteButtonWithBackground" />
+                <Button text="Contact sales" type="blackButtonNoBackground" />
+                <Button text="Sign in" type="blackButtonWithBackground" />
             </div>
         </nav>
     );

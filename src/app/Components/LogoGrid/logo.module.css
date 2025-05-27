@@ -11,10 +11,30 @@
   }
 
   .logosvg {
-    width: 200px;
+    width: 160px;
     height: 60px;
   }
   /* .microsoft{
     width: 150px !important;
     height: 40px;
   } */
+.slick-slide img:focus,
+.slick-slide img:active {
+  outline: none !important;
+  box-shadow: none !important;
+    border: none !important;
+}
+.slick-slide svg:focus,
+.slick-slide svg:active {
+  outline: none !important;
+  box-shadow: none !important;
+    border: none !important;
+}
+.slick-slide svg {
+  outline: none !important;
+  border: none !important;
+}
+.slick-slide img {
+  outline: none !important;
+  border: none !important;
+}
