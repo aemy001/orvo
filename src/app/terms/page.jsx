@@ -6,7 +6,8 @@ import Footer from "../Components/Footer/Footer";
 const PrivacyPolicy = () => {
   return (
     <>
-      <Navbar />
+     <div className="privacy-page">
+         <Navbar />
       <div className="privacy">
         <div className="container privacy-container">
           <div className="mb-4 privacy-header">
@@ -194,6 +195,7 @@ const PrivacyPolicy = () => {
           </div>
         </div>
       </div>
+     </div>
       <Footer />
     </>
   );

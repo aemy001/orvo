@@ -4,6 +4,7 @@ import Footer from "../Components/Footer/Footer";
 import Background from "../Components/HeroBackground/BackgroundBlogs";
 import NavbarBlack from "../Components/Navbar/NavbarBlack";
 import Button from "../Components/Button/Button";
+import Link from "next/link";
 
 const blogs = [
   {
@@ -53,9 +54,11 @@ export default function BlogPage() {
             </Col>
             <Col md={7} lg={7}>
               <div className="blog-card p-3">
+               <Link href="/blog-view">
                 <h3 className="fw-bold my-3">
                   Introducing Stablecoin Financial Accounts in 101 countries
                 </h3>
+               </Link>
                 <div className="d-flex align-items-center mb-3">
                   <Image
                     src="/images/reviews/4.png"
@@ -86,10 +89,11 @@ export default function BlogPage() {
          
             <Col md={7} lg={7}>
               <div className="blog-card px-5 py-3">
+                 <Link href="/blog-view">
                 <h3 className="fw-bold my-3">
                   {blog.title}
                 </h3>
-             
+             </Link>
                 <p className="text-muted mb-3">{blog.description}
                 </p>
                 <Button className="p-0" text="Read More" type="purpleButtonWithNoBackground" />

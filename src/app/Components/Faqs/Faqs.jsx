@@ -11,7 +11,7 @@ const [openIndex, setOpenIndex] = useState(0);
   };
   return (
    <>
-   <section className='faqs'>
+   <section className='faqs' id="faqs">
 <h3 className='text-center'>Frequently Asked Questions</h3>
   <div className="container mt-4">
       <div className="row">

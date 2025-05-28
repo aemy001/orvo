@@ -25,22 +25,22 @@ const Footer = () => {
             <h6 className="fw-bold mb-3 links">Useful Links</h6>
             <ul className="list-unstyled">
               <li className="mb-2">
-                <a href="#" className="text-decoration-none text-dark">
+                <a href="#features" className="text-decoration-none text-dark">
                   Features
                 </a>
               </li>
               <li className="mb-2">
-                <a href="#" className="text-decoration-none text-dark">
+                <a href="#pricing" className="text-decoration-none text-dark">
                   Pricing
                 </a>
               </li>
               <li className="mb-2">
-                <a href="#" className="text-decoration-none text-dark">
+                <a href="#reviews" className="text-decoration-none text-dark">
                   Reviews
                 </a>
               </li>
               <li className="mb-2">
-                <a href="#" className="text-decoration-none text-dark">
+                <a href="/blogs" className="text-decoration-none text-dark">
                   Blogs
                 </a>
               </li>
@@ -52,22 +52,22 @@ const Footer = () => {
             <h6 className="fw-bold mb-3">Help & support</h6>
             <ul className="list-unstyled">
               <li className="mb-2">
-                <a href="#" className="text-decoration-none text-dark">
+                <a href="#faqs" className="text-decoration-none text-dark">
                   FAQS
                 </a>
               </li>
               <li className="mb-2">
-                <a href="#" className="text-decoration-none text-dark">
+                <a href="/terms" className="text-decoration-none text-dark">
                   Terms & Conditions
                 </a>
               </li>
               <li className="mb-2">
-                <a href="#" className="text-decoration-none text-dark">
+                <a href="/privacy-policy" className="text-decoration-none text-dark">
                   Privacy policy
                 </a>
               </li>
               <li className="mb-2">
-                <a href="#" className="text-decoration-none text-dark">
+                <a href="#globe" className="text-decoration-none text-dark">
                   Analytics
                 </a>
               </li>
@@ -127,7 +127,7 @@ const Footer = () => {
          </div>
           </div>
           <div className="col-12 col-md-4 text-center">
-            <a href="" className="email">
+            <a href="mailto:office@getorvo.com" className="email">
               {" "}
               office@getorvo.com{" "}
             </a>

@@ -32,7 +32,9 @@ export default function Home() {
         <main className={styles.main}>
             <Background />
             <Navbar />
-            <Contents />
+         <div id="hero">
+             <Contents />
+         </div>
             <LogoGrid/>
             <ModularSection/>
              <GlobalSection/>

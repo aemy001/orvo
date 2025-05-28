@@ -164,12 +164,15 @@ p {
 .section-container {
   padding: 0 0 0 7.2vw;
 }
-.privacy {
+.privacy-page {
   background-image: url("/images/FeaturesBg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100% 100%;
-  padding: 5rem;
+ 
+}
+.privacy{
+   padding: 5rem;
 }
 
 .privacy-header {

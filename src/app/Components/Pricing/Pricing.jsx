@@ -34,7 +34,7 @@ const Pricing = () => {
   ];
   return (
   <>
-  <section className='pricing'>
+  <section className='pricing' id="pricing">
 <h3 className='text-center'>Find Your Perfect Plan</h3>
 <p className='text-center'>Discover the ideal plan to fuel your business growth. Our pricing options are carefully crafted to cater to businesses.
 Have a secure payment with 7 days refund policy</p>

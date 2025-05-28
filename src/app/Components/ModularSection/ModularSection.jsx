@@ -51,7 +51,7 @@ export default function ModularStickyScrollWrapper() {
   }, [content.length]);
 
   return (
-    <section ref={containerRef} className="modular-section">
+    <section ref={containerRef} className="modular-section" id="features">
     <div className="container two">
         <div className="row">
         {/* Left scrollable text */}

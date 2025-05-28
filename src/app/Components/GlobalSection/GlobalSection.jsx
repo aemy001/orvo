@@ -10,7 +10,7 @@ const GlobeComponent = dynamic(() => import("../Globe/Globe"), {
 
 function Global() {
   return (
-    <section className="global ">
+    <section className="global " id="global">
       <div className="global-lines">
         <div className="tall">
           <div className="short"></div>
