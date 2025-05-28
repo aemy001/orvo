@@ -1,9 +1,13 @@
 // components/PrivacyPolicy.tsx
 import React from 'react';
+import Navbar from '../Components/Navbar/NavbarBlack'
+import Footer from '../Components/Footer/Footer'
+
 
 const PrivacyPolicy = () => {
   return (
     <>
+    <Navbar/>
     <div className='privacy'>
     <div className="container privacy-container ">
 <div className="mb-4 privacy-header">
@@ -103,7 +107,7 @@ const PrivacyPolicy = () => {
       <p className='terms-p'>By using Orvo, you agree to this Privacy Policy.</p>
     </div>
     </div>
-
+    <Footer/>
     </>
    
   );
