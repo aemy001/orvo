@@ -9,7 +9,7 @@ padding: 5vw 7vw;
   position: relative;
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  /* height: 500px !important; */
+  height: 500px !important;
 }
 
 .blogscontainer .card-body{

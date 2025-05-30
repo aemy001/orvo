@@ -28,7 +28,7 @@ const Blogs = () => {
               </p>
               <Button
                   text="Read More"
-                        type="purpleButtonWithNoBackground"
+                   type="purpleButtonWithNoBackground"
               />
             </div>
           </div>
