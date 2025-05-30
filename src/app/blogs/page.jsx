@@ -19,17 +19,17 @@ const blogs = [
     },
    
   },
-  // {
-  //   id: 2,
-  //   title: "Why Mobile Optimization Matters in 2025",
-  //   description:
-  //     "Learn how mobile-first design is reshaping the digital customer journey.",
-  //   image: "/images/blog1.webp",
-  //   author: {
-  //     name: "Fatima Noor",
-  //     avatar: "/images/reviews/3.png",
-  //   },
-  // },
+  {
+    id: 2,
+    title: "Our top product updates from Sessions 2025",
+    description:
+      "We announced the ability to manage multiple payment providers from within Stripe, two new extensibility primitives, support for turnkey consumer issuing programs, new money management capabilities, and a lot more.",
+    image: "/images/blog5.webp",
+    author: {
+      name: "Will Graybrick",
+      avatar: "/images/reviews/5.png",
+    },
+  },
   // Add more blog objects here as needed
 ];
 

@@ -10,7 +10,8 @@ const Navbar = () => {
     <nav className={styles.nav2}>
       <ul className={styles.ul}>
         <li className={styles.logo}>
-          <svg
+                 <Link href="/">
+                     <svg
             width="100"
             height="60"
             viewBox="0 0 429 115"
@@ -34,6 +35,8 @@ const Navbar = () => {
               fill="black"
             />
           </svg>
+                 </Link>
+      
         </li>
         {/* <li className={styles.li}>
                     <Link href="/" className={styles.a}>
