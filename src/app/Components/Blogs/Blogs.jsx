@@ -3,6 +3,7 @@
 import React from "react";
 import "./Blogs.css";
 import Button from "../Button/Button";
+import Link from "next/link";
 
 const Blogs = () => {
   return (
@@ -35,7 +36,10 @@ const Blogs = () => {
                 connect with Stripe, such as <a href="#">Squarespace</a> and{" "}
                 <a href="#">Lightspeed</a>.
               </p>
-              <Button text="Read More" type="purpleButtonWithNoBackground" />
+              <Link href="/blog-view">
+  <Button text="Read More" type="purpleButtonWithNoBackground" />
+</Link>
+              {/* <Button href="/blog-view" text="Read More" type="purpleButtonWithNoBackground" /> */}
             </div>
           </div>
         </div>
@@ -56,7 +60,10 @@ const Blogs = () => {
                 Work with a Stripe consulting partner that can integrate and
                 deploy Stripe solutions for you consulting partner.
               </p>
-              <Button text="Read More" type="purpleButtonWithNoBackground" />
+                    <Link href="/blog-view">
+  <Button text="Read More" type="purpleButtonWithNoBackground" />
+</Link>
+              {/* <Button href="/blog-view" text="Read More" type="purpleButtonWithNoBackground" /> */}
             </div>
           </div>
         </div>
@@ -77,7 +84,10 @@ const Blogs = () => {
                 <a href="#">payment link</a> directly from your Dashboard to
                 start generating revenue.
               </p>
-              <Button text="Read More" type="purpleButtonWithNoBackground" />
+                    <Link href="/blog-view">
+  <Button text="Read More" type="purpleButtonWithNoBackground" />
+</Link>
+              {/* <Button href="/blog-view" text="Read More" type="purpleButtonWithNoBackground" /> */}
             </div>
           </div>
         </div>
